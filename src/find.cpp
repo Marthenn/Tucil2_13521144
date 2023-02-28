@@ -16,7 +16,7 @@ int main(){
     cout << "Enter number of iterations: "; cin >> iterations;
     pair<Point, Point> dummyPair;
     for(int k = 0; k < iterations; k++){
-        cout << "Iteration: " << k+1 << endl;
+        // cout << "Iteration: " << k+1 << endl;
         auto primeDuration = chrono::duration<double, milli>(1000000000).count();
         for(int i = 3; i < 100; i++){
             // cout << "Bound: " << i << endl;
