@@ -5,7 +5,7 @@
 int main(){
     int n;
     cout<<"Input options:\n 1. Random points\n 2. Read from file\n 3. Read from standard input\n";
-    cout<<"Enter your choice: "; int ans = validate(1,3); int n;
+    cout<<"Enter your choice: "; int ans = validate(1,3);
     vector<Point> points;
     string filename;
     int dimension;
