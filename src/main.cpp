@@ -12,7 +12,7 @@ int main(){
     switch(ans){
         case 1:
             cout<<"Enter number of points(2-5000): "; n = validate(2,5000);
-            cout<<"Enter dimension: "; dimension = validate(1, 100);
+            cout<<"Enter dimension(1-100): "; dimension = validate(1, 100);
             points = randomPoints(dimension, n);
             break;
         case 2:
@@ -21,7 +21,7 @@ int main(){
             break;
         case 3:
             cout<<"Enter number of points(2-5000): "; n = validate(2,5000);
-            cout<<"Enter dimension: "; dimension = validate(1, 100);
+            cout<<"Enter dimension(1-100): "; dimension = validate(1, 100);
             points = readPoints(dimension, n);
             break;
         default:
