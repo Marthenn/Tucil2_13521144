@@ -2,6 +2,7 @@
 #include "lib/header/solver.hpp"
 #include <chrono>
 #include <numeric>
+#include <algorithm>
 
 int main(){
     int dimension;
@@ -50,6 +51,7 @@ int main(){
         cout << i*10 << " - " << (i+1)*10 << ": " << count[i] << endl;
     }
     cout << "Average: " << avg << endl;
+    sort(bestBounds.begin(), bestBounds.end());
     cout << "Median: " << bestBounds[iterations/2] << endl;
     return 0;
 }
