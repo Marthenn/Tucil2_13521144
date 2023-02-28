@@ -1,0 +1,13 @@
+build:
+	@echo Building...
+	@g++ -std=c++11 -o bin/main src/main.cpp src/lib/*.cpp -mrdrnd
+
+run: build
+	@echo Running...
+	@./bin/main
+
+find:
+	@echo Building boundary finder...
+	@g++ -std=c++11 -o bin/find src/find.cpp src/lib/*.cpp -mrdrnd
+	@echo Running boundary finder...
+	@./bin/find
