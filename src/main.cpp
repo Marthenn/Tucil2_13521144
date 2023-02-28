@@ -54,6 +54,8 @@ int main(){
     cout << "Distance: " << closestPair.first.distance(closestPair.second) << endl;
     cout << duration << " ms" << endl;
 
+    cout << "Ran on AMD Ryzen 5 4500U 6-Core Processor 2.40 GHz with 8 GB of RAMs\n";
+
     if(points[0].getDimension() == 2 || points[0].getDimension() == 3){
         cout << "Do you want to plot the points?\n 1. Yes\n 2. No\n";
         cout << "Enter your choice: "; ans = validate(1,2);
