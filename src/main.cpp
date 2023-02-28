@@ -3,15 +3,15 @@
 #include <chrono>
 
 int main(){
-    cout<<"Enter number of points(2-5000): "; int n = validate(2,5000);
+    int n;
     cout<<"Input options:\n 1. Random points\n 2. Read from file\n 3. Read from standard input\n";
-    cout<<"Enter your choice: "; int ans = validate(1,3);
-    
+    cout<<"Enter your choice: "; int ans = validate(1,3); int n;
     vector<Point> points;
     string filename;
     int dimension;
     switch(ans){
         case 1:
+            cout<<"Enter number of points(2-5000): "; n = validate(2,5000);
             cout<<"Enter dimension: "; dimension = validate(1, 100);
             points = randomPoints(dimension, n);
             break;
@@ -20,6 +20,7 @@ int main(){
             points = readPoints(filename);
             break;
         case 3:
+            cout<<"Enter number of points(2-5000): "; n = validate(2,5000);
             cout<<"Enter dimension: "; dimension = validate(1, 100);
             points = readPoints(dimension, n);
             break;
