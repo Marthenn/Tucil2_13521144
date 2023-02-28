@@ -50,6 +50,6 @@ int main(){
         cout << i*10 << " - " << (i+1)*10 << ": " << count[i] << endl;
     }
     cout << "Average: " << avg << endl;
-    cout << "Median: " << bestBounds[bestBounds.size()/2] << endl;
+    cout << "Median: " << bestBounds[iterations/2] << endl;
     return 0;
 }
