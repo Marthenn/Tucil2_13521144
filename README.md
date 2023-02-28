@@ -15,6 +15,7 @@
 - matplotlib 3.4.3
 - numpy 1.21.2
 - GNU make 4.3
+- Windows 11
 
 ## Cara Mengompilasi Program
 1. Arahkan terminal pada direktori utama
