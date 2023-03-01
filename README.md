@@ -22,7 +22,7 @@
 2. Jalankan perintah `make build`
 
 ## Cara Menjalankan Program
-1. Arahkan terminal pada direktori yang terdapat file hasil kompilasi program (contoh: folder bin yang memiliki file main.exe)
+1. Arahkan terminal pada direktori utama
 2. Jalankan perintah `make run` untuk menjalankan program utama
 3. Jalankan perintah `make find` untuk menjalankan program pencarian bound optimal (pengambilan nilai bound dibebaskan sesuai keinginan berdasarkan hasil output program ini)
 
